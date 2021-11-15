@@ -1,0 +1,20 @@
+@charset "UTF-8";
+#cuerpo{
+	background-color : #9BDEF3;
+}
+#titulo{
+	color: blue;
+	text-align: center;
+	
+}
+p::first-line{
+	color:red;
+}
+#menu{
+	color: blue;
+	text-align: center;
+}
+.link::hover{
+	backcground-color: yellow;
+	color:red;
+}
