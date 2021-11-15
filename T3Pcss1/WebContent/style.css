@@ -1,10 +1,12 @@
 @charset "UTF-8";
 #cuerpo{
 	background-color : #9BDEF3;
+	font-family:Times New Roman
 }
 #titulo{
 	color: blue;
 	text-align: center;
+	
 	
 }
 p::first-line{
