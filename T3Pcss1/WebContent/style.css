@@ -36,3 +36,9 @@ p.producto::before{
 	content: counter(section);
 	counter-increment: section;
 }
+footer p{
+	font-style: oblique;
+}
+.img{
+	float: right;
+}
