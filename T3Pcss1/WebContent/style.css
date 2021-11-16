@@ -1,22 +1,38 @@
 @charset "UTF-8";
 #cuerpo{
 	background-color : #9BDEF3;
-	font-family:Times New Roman
+	font-family:Times New Roman;
+	counter-reset:section;
 }
 #titulo{
 	color: blue;
 	text-align: center;
-	
-	
 }
-p::first-line{
+h2::first-letter{
+	font-size: 300%;
+	color:black;
+}
+p.primeralinearoja::first-line{
 	color:red;
 }
-#menu{
+#indice{
 	color: blue;
 	text-align: center;
+	
 }
-.link::hover{
-	backcground-color: yellow;
+.ind:hover{
+	background-color: gold;
 	color:red;
+}
+a.link{
+	background-color: white;
+	color: blue;
+}
+a.link:visited{
+	background-color: blue;
+	color: white;
+}
+p.producto::before{
+	content: counter(section);
+	counter-increment: section;
 }
